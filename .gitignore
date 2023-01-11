@@ -1,0 +1,5 @@
+#INTELLIJ
+.idea/*
+
+#VSCODE
+.vscode/*
