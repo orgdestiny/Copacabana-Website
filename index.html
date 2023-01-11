@@ -16,10 +16,13 @@
 
     <!-- Estilos -->
     <link rel="stylesheet" href="./src/assets/css/styles.css">
+
+    <!-- SCROLL REVEAL PLUGIN -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
-<body>
-    <main>
-        <section class="hero">
+<body class="bg-light">
+    <header>
+        <section class="hero" id="heroSection">
             <div class="container py-5">
                 <article class="logo d-flex justify-content-center">
                     <img src="./src/assets/img/logo.png" alt="Copacabana Roleplay">
@@ -34,9 +37,120 @@
                 </article>
             </div>
         </section>
+    </header>
+
+    <main class="mt-5">
+        <section class="container">
+            <!-- SEÇÃO SOBRE NÓS -->
+            <article class="row justify-content-center" id="aboutSection">
+                <section class="col-md-8">
+                    <p class="h1 fw-bold text-uppercase text-center">Sobre Nós</p>
+
+                    <p class="fs-4">Somos um grupo de servidores de jogos ‘online’ criado pela <a class="fw-bold text-dark text-decoration-none" href="https://orgdestiny.me">Destiny Company</a>,
+                        Nossa missão é proporcionar a melhor experiência possivel para o nosso usuário.</p>
+
+                    <p class="fs-4">Fique a vontade para entrar em contato conosco!</p>
+
+                    <article class="button-contact d-flex justify-content-center my-5">
+                        <a class="button" href="mailto:booking@orgdestiny.me" target="_blank"><i class="bi-envelope-at"></i> Contato</a>
+                    </article>
+                </section>
+            </article>
+            <!-- FIM SEÇÃO SOBRE NÓS -->
+
+            <hr class="border border-success border-1">
+
+            <!-- SEÇÃO NOSSOS SERVIDORES -->
+            <article class="row mt-5 justify-content-center" id="serverSection">
+                <section class="col-md-8">
+                    <p class="h1 fw-bold text-uppercase text-center">Nossos Servidores</p>
+
+                    <p class="fs-4">Abaixo segue alguns de nossos servidores :</p>
+                </section>
+            </article>
+
+            <article class="row my-5 justify-content-center" id="serversSection">
+                <section class="col-md-4 d-flex flex-column align-items-center mb-5">
+                    <article class="title-server">
+                        <p class="h3 mb-4">Copacabana Roleplay (MTA)</p>
+                    </article>
+
+                    <article class="image-server">
+                        <img src="./src/assets/img/mta-logo.webp" alt="Copacabana Roleplay">
+                    </article>
+                </section>
+
+                <section class="col-md-4 d-flex flex-column align-items-center">
+                    <article class="title-server">
+                        <p class="h3 mb-4">Em Breve</p>
+                    </article>
+
+                    <article class="image-server">
+                        <i class="bi bi-box"></i>
+                    </article>
+                </section>
+
+                <section class="col-md-4 d-flex flex-column align-items-center">
+                    <article class="title-server">
+                        <p class="h3 mb-4">Em Breve</p>
+                    </article>
+
+                    <article class="image-server">
+                        <i class="bi bi-box"></i>
+                    </article>
+                </section>
+            </article>
+            <!-- FIM SEÇÃO NOSSOS SERVIDORES -->
+
+            <hr class="border border-success border-1">
+
+            <!-- SEÇÃO REDES SOCIAIS -->
+            <article class="row mt-5 justify-content-center" id="socialTitleSection">
+                <section class="col-md-8">
+                    <p class="h1 fw-bold text-uppercase text-center">Redes Sociais</p>
+                </section>
+            </article>
+
+            <article class="row my-4 justify-content-center" id="socialSection">
+                <section class="col-md-4 d-flex flex-column align-items-center">
+                    <article class="image-server facebook-icon">
+                        <a href="https://web.facebook.com/copacabanaroleplay/" target="_blank"><i class="bi bi-facebook"></i></a>
+                    </article>
+                </section>
+
+                <section class="col-md-4 d-flex flex-column align-items-center">
+                    <article class="image-server youtube-icon">
+                        <a href="https://www.youtube.com/@copacabanaroleplay" target="_blank"><i class="bi bi-youtube"></i></a>
+                    </article>
+                </section>
+
+                <section class="col-md-4 d-flex flex-column align-items-center">
+                    <article class="image-server instagram-icon">
+                        <a href="https://www.instagram.com/coparoleplay/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    </article>
+                </section>
+            </article>
+            <!-- FIM SEÇÃO REDES SOCIAIS -->
+        </section>
     </main>
+
+    <!-- RODAPÉ -->
+    <footer class="mt-5" id="footerSection">
+        <section class="container">
+            <article class="row">
+                <section class="col-md-12">
+                    <p class="fs-6 text-center">Copyright © 2023 Copacabana Roleplay. Todos os direitos reservados.</p>
+                    <p class="blockquote-footer text-center">Feito com ❤️ por <a class="fw-bold text-dark text-decoration-none" href="https://orgdestiny.me">Destiny Company</a>.</p>
+                </section>
+            </article>
+        </section>
+    </footer>
+    <!-- FIM RODAPÉ -->
 
     <!-- Bootstrap v5.3 JS BUNDLE -->
     <script src="./src/assets/framework/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- SCRIPTS -->
+    <script src="./src/assets/js/scripts.js" type="text/javascript"></script>
 </body>
 </html>
